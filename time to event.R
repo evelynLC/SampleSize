@@ -2,15 +2,6 @@ library(tidyr)
 library(dplyr)
 library("survival")
 
-# Example: DREAMM 15
-# Design: Du-endpoints(mPFS + MDR rate)
-# mPFS = 52m vs 36m, HR=0.692, alpha=0.02 one side
-# MDR% = 40 vs 20, diff=0.2, alpha=0.005 one side
-# Global sample size 750, 1:1, 31pts/m, drop out = 8%/year
-# 
-
-## mPFS
-## POWER for China
 
 subject.sim <- function(n, enrollment, follow, dropout){
   # population
